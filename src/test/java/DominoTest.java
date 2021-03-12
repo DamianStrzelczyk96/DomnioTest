@@ -8,4 +8,11 @@ public class DominoTest {
         Assert.assertEquals(Main.newStructure("||//||\\||/\\|",1) , "||///\\\\||/\\|");
     }
 
+    @Test
+    public void TestingOldStructure(){
+
+        Assert.assertEquals(Main.oldStructure("||////\\\\\\|////|",2), "||//||||\\|//|||");
+
+    }
+
 }
